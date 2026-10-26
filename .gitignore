@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+built/node_modules/
+built_backup/node_modules/
+
+# Build outputs
+dist/
+built/dist/
+built_backup/dist/
+
+# TypeScript build info
+*.tsbuildinfo
+built/tsconfig.tsbuildinfo
+built_backup/tsconfig.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
